@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">CodeChef1</string>
+
+    <string-array name="Main">
+        <item>Timetable</item>
+        <item>Subjects</item>
+        <item>Resources</item>
+    </string-array>
+    <string-array name="Description">
+        <item>Description 1</item>
+        <item>Description 2</item>
+        <item>Description 3</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>Counselling</item>
+        <item>SPCM</item>
+        <item>BREAK</item>
+        <item>PPS</item>
+        <item>BREAK</item>
+        <item>CLA</item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>SPCM</item>
+        <item>BREAK</item>
+        <item>CLA</item>
+        <item>Communicative English</item>
+        <item>BREAK</item>
+        <item>PPS</item>
+        <item>Environmental Science</item>
+        <item>Engineering Graphics</item>
+        <item>Philosophy of Engineering</item>
+    </string-array>
+    <string-array name="Wednesday">
+        <item>CLA</item>
+        <item>PPS</item>
+        <item>BREAK</item>
+        <item>SPCM</item>
+        <item>Communicative English</item>
+        <item>BREAK</item>
+        <item>Value Added Course</item>
+        <item>NSO</item>
+    </string-array>
+    <string-array name="Thursday">
+        <item>Professional Skills and Practices</item>
+        <item>BREAK</item>
+        <item>SPCM</item>
+        <item>PPS</item>
+        <item>CLA</item>
+        <item>BREAK</item>
+        <item>Computational Biology</item>
+        <item>Engineering Graphics</item>
+    </string-array>
+    <string-array name="Friday">
+        <item>Library</item>
+        <item>Philosophy of Engineering</item>
+        <item>BREAK</item>
+        <item>Philosophy of Engineering</item>
+        <item>Communicative English</item>
+        <item>BREAK</item>
+        <item>SPCM</item>
+        <item>Computational Biology</item>
+    </string-array>
+    <string-array name="time1">
+        <item>8:00AM - 8:50AM</item>
+        <item>8:50AM - 9:40AM</item>
+        <item>9:40AM - 9:50AM</item>
+        <item>9:50AM - 11:30AM</item>
+        <item>11:30AM - 12:20PM</item>
+        <item>12:20PM - 1:10PM</item>
+    </string-array>
+    <string-array name="time2">
+        <item>8:00AM - 9:40AM</item>
+        <item>9:40AM - 9:50AM</item>
+        <item>9:50AM - 10:40AM</item>
+        <item>10:40AM - 11:30AM</item>
+        <item>11:30AM - 12:20PM</item>
+        <item>12:20PM - 1:10PM</item>
+        <item>1:10PM - 2:00PM</item>
+        <item>2:00PM - 2:50PM</item>
+        <item>2:50PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time3">
+        <item>8:00AM - 8:50AM</item>
+        <item>8:50AM - 9:40AM</item>
+        <item>9:40AM - 9:50AM</item>
+        <item>9:50AM - 10:40AM</item>
+        <item>10:40AM - 11:30AM</item>
+        <item>11:30AM - 12:20PM</item>
+        <item>12:20PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time4">
+        <item>8:00AM - 9:40AM</item>
+        <item>9:40AM - 9:50AM</item>
+        <item>9:50AM - 10:40AM</item>
+        <item>10:40AM - 11:30AM</item>
+        <item>11:30AM - 12:20PM</item>
+        <item>12:20PM - 1:10PM</item>
+        <item>1:10PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time5">
+        <item>8:00AM - 8:50AM</item>
+        <item>8:50AM - 9:40AM</item>
+        <item>9:40AM - 9:50AM</item>
+        <item>9:50AM - 10:40AM</item>
+        <item>10:40AM - 11:30AM</item>
+        <item>11:30AM - 12:20PM</item>
+        <item>12:20PM - 1:10PM</item>
+        <item>1:10PM - 2:00PM</item>
+    </string-array>
+</resources>
