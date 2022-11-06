@@ -1,11 +1,13 @@
 package com.example.codechef1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -49,6 +51,7 @@ public class DayDetail extends AppCompatActivity {
     private void initToolbar(){
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY,null));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private void setupListView(){
@@ -142,6 +145,13 @@ public class DayDetail extends AppCompatActivity {
             return convertView;
 
         }
+    }
+
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }

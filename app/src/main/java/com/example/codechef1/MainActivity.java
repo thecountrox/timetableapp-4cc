@@ -55,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     }
-                    case 1: {
+              /*      case 1: {
                         break;
                     }
                     case 2: {
                         break;
-                    }
+                    }*/
                 }
             }
         });
@@ -115,11 +115,11 @@ public class MainActivity extends AppCompatActivity {
 
             if(titleArray[position].equalsIgnoreCase("Timetable")){
                 imageView.setImageResource(R.drawable.timetable);
-            }else if(titleArray[position].equalsIgnoreCase("Subjects")){
+            }/*else if(titleArray[position].equalsIgnoreCase("Subjects")){
                 imageView.setImageResource(R.drawable.book);
             }else{
                 imageView.setImageResource(R.drawable.settings);
-            }
+            }*/
 
             return convertView;
 
